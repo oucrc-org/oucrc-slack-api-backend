@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="net.oucrc.ApiResultSequenceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-11T00:20:16" hostname="RyonoMacBook-Pro.local" time="0.006">
+  <properties/>
+  <testcase name="listの中身にFailureがあるときはFailure型を返す" classname="net.oucrc.ApiResultSequenceTest" time="0.006"/>
+  <testcase name="listの中身の型が全てSuccessの時はSuccess型を返す" classname="net.oucrc.ApiResultSequenceTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
