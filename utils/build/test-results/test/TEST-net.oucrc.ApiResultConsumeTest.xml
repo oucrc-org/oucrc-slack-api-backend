@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.oucrc.ApiResultConsumeTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-11-11T00:20:16" hostname="RyonoMacBook-Pro.local" time="0.013">
-  <properties/>
-  <testcase name="型がFailureの時はfailureを実行" classname="net.oucrc.ApiResultConsumeTest" time="0.013"/>
-  <testcase name="型がSuccessの時はsuccessを実行" classname="net.oucrc.ApiResultConsumeTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
