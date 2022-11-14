@@ -16,5 +16,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "oucrc-slack-api-backend"
 
-include("domain")
+include("feature")
+include("feature:news")
+include("feature:checkin")
 include("utils")
