@@ -1,0 +1,31 @@
+@startuml
+
+package data {
+    [repository]
+}
+
+package feature {
+    package news {
+        [newsDomain]
+        [newsUseCase]
+    }
+
+    package checkin {
+        [checkinDomain]
+        [checkinUseCase]
+    }
+}
+
+package controller {
+    [routing]
+}
+
+[routing].>newsUseCase
+[routing].>checkinUseCase
+
+[newsUseCase].>[newsDomain]
+[checkinUseCase].>[checkinDomain]
+[newsUseCase].>[repository]
+[checkinUseCase].>[repository]
+
+@enduml

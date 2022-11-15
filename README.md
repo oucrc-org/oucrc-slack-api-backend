@@ -32,3 +32,7 @@ Windowsユーザーの場合は`gradlew`の代わりに`gradlew.bat`を利用し
 
 [Kotlin Cording Conversion](https://kotlinlang.org/docs/coding-conventions.html#class-headers) に従うものとする
 
+# docs
+
+[アーキテクチャ](docs/アーキテクチャ.md)
+
