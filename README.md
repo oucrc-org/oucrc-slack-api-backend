@@ -27,3 +27,8 @@ Windowsユーザーの場合は`gradlew`の代わりに`gradlew.bat`を利用し
 ```shell
 ./gradlew test
 ```
+
+# 命名規則
+
+[Kotlin Cording Conversion](https://kotlinlang.org/docs/coding-conventions.html#class-headers) に従うものとする
+
