@@ -8,14 +8,12 @@ import net.oucrc.domain.introduction.IntroductionId
 data class IntroductionUseCaseModel(
     val id: IntroductionId,
     val content: IntroductionContent,
-    val createdAt: Instant,
     val modifiedAt: Instant,
 ) {
     companion object {
         fun from(introduction: Introduction) = IntroductionUseCaseModel(
             id = introduction.id,
             content = introduction.content,
-            createdAt = introduction.createdAt,
             modifiedAt = introduction.modifiedAt,
         )
     }
