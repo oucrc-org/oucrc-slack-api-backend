@@ -1,4 +1,4 @@
-package net.oucrc.domain
+package net.oucrc.domain.introduction
 
 import kotlinx.datetime.Instant
 

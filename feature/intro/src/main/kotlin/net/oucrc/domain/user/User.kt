@@ -1,4 +1,4 @@
-package net.oucrc.domain
+package net.oucrc.domain.user
 
 class User(
     val id: UserId,
