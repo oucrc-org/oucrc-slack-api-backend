@@ -17,8 +17,7 @@ class GetIntroductionUseCase(
             introductionRepository
                 .get()
                 .map { introduction ->
-                    introduction?.let { IntroductionUseCaseModel.from(it)
-                    }
+                    introduction?.let { IntroductionUseCaseModel.from(it) }
                 }
         }
 }

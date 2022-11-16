@@ -1,8 +1,8 @@
 package net.oucrc.domain.introduction
 
-import java.util.UUID
 import kotlinx.datetime.Clock
 import kotlinx.datetime.Instant
+import java.util.UUID
 
 class Introduction private constructor(
     val id: IntroductionId,
