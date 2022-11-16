@@ -2,7 +2,7 @@ package net.oucrc.domain
 
 data class ReceivedMessage(
     val user: User,
-    val content: ReceivedContent
+    val content: ReceivedContent,
 )
 
 @JvmInline
