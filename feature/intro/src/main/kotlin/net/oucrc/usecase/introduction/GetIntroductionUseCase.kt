@@ -12,10 +12,13 @@ class GetIntroductionUseCase(
     private val introductionRepository: IntroductionRepository,
     private val dispatcher: CoroutineDispatcher = Dispatchers.Default,
 ) {
-    suspend operator fun invoke(): ApiResult<IntroductionUseCaseModel, DomainException> =
+    suspend operator fun invoke(): ApiResult<IntroductionUseCaseModel?, DomainException> =
         withContext(dispatcher) {
             introductionRepository
                 .get()
-                .map { IntroductionUseCaseModel.from(it) }
+                .map { introduction ->
+                    introduction?.let { IntroductionUseCaseModel.from(it)
+                    }
+                }
         }
 }
