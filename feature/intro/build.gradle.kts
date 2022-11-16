@@ -3,6 +3,8 @@ plugins {
 }
 
 dependencies {
+    implementation(project(":utils"))
+
     implementation(libs.datetime)
     implementation(libs.bundles.test)
 }
