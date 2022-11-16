@@ -1,6 +1,7 @@
 name: 'ktlintを実行'
 
 on:
+  push:
   pull_request:
     types:
       - opened
