@@ -19,4 +19,5 @@ rootProject.name = "oucrc-slack-api-backend"
 include("feature")
 include("feature:news")
 include("feature:checkin")
+include("feature:intro")
 include("utils")
